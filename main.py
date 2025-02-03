@@ -5,7 +5,7 @@ import mediapipe as mp
 import serial
 import time
 
-ARDUINO_PORT = '/dev/cu.usbmodem1101'  #MAC OS
+ARDUINO_PORT = '/dev/cu.usbmodem101'  #MAC OS
 BAUD_RATE = 9600
 DEAD_ZONE_BUFFER = 30
 ANGLE_STEP = 5
